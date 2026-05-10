@@ -38,10 +38,10 @@ layers:
     - ''
     - '5'
     - '2'
-    - '&cmd_zoom'
+    - LEFT GUI
     - {t: SPACE, h: RIGHT CONTROL}
     - RIGHT SHIFT
-  - ['', '5']
+  - ['&cmd_zoom', '5']
   FUNCTION:
   - - ''
     - ''
@@ -59,8 +59,8 @@ layers:
     - RIGHT ARROW
     - Alt+V
     - ''
-    - '&mkp MB2'
     - {t: ▽, type: trans}
+    - '&mkp MB2'
     - {t: ▽, type: trans}
     - DELETE
   - - Gui+Alt+PWR
@@ -101,8 +101,8 @@ layers:
     - RIGHT ARROW
     - Alt+V
     - ''
-    - '&mkp MB2'
     - {t: ▽, type: trans}
+    - '&mkp MB2'
     - {t: ▽, type: trans}
     - DELETE
   - - Gui+Alt+PWR
@@ -125,7 +125,7 @@ layers:
     - {t: ▽, type: trans}
     - LANG2
     - LANGUAGE 1
-  - [Gui+Sft+2, '']
+  - [Gui+Sft+2, BT CLR ALL]
   ARROW:
   - [ESCAPE, Ctl+Sft+TAB, UP ARROW, Ctl+', /, \, ;, '''', '-', '=']
   - ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
@@ -231,7 +231,7 @@ layers:
   '6':
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - Sft+Gui+UP ARROW
+    - Alt+UP ARROW
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -240,15 +240,15 @@ layers:
     - Alt+Sft+C
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - Sft+Gui+LEFT ARROW
-    - Sft+Gui+DOWN ARROW
-    - Sft+Gui+RIGHT ARROW
+    - Alt+LEFT ARROW
+    - Alt+DOWN ARROW
+    - Alt+RIGHT ARROW
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - Alt+LEFT ARROW
     - Alt+Sft+A
     - Alt+RIGHT ARROW
-    - {t: ▽, type: trans}
+    - Alt+BACKSPACE
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -273,24 +273,33 @@ layers:
   '7':
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - Sft+Gui+UP ARROW
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - F1
+    - F2
+    - F3
+    - F4
+    - F5
+  - - {t: ▽, type: trans}
+    - Sft+Gui+LEFT ARROW
+    - Sft+Gui+DOWN ARROW
+    - Sft+Gui+RIGHT ARROW
     - {t: ▽, type: trans}
+    - F6
+    - F7
+    - F8
+    - F9
+    - F10
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10]
-  - - F11
-    - F12
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - F11
+    - F12
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}

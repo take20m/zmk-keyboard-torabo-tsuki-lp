@@ -1,3 +1,5 @@
+<img src="docs/images/torabo-tsuki-lp.jpg" alt="torabo-tsuki LP" width="800">
+
 [torabo-tsuki LP](https://github.com/sekigon-gonnoc/torabo-tsuki-lp)用のZMKファームウェア
 
 - `_central`がついているuf2をトラックボールがついている方に、`_peripheral`を反対側に書き込んでください
