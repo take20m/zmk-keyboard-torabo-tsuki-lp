@@ -6,6 +6,7 @@
     // Default: mouse movement mode
     input-processors = <
         &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
+        &zip_xy_scaler 4 3
     >;
 
     // When layer 2 (CMD_SLOW) or layer 4 (MOUSE) is active: slow mode for precise selection
@@ -13,7 +14,7 @@
         layers = <2 4>;
         input-processors = <
             &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
-            &zip_xy_scaler 3 5
+            &zip_xy_scaler 4 5
         >;
     };
 
