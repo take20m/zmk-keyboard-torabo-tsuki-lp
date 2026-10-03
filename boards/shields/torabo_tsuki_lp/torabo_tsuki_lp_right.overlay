@@ -50,3 +50,8 @@
 &size_l_transform {
     col-offset = <7>;
 };
+
+// Keep the sensor out of its internal sleep modes to avoid wake-up lag
+&trackball {
+    force-awake;
+};
